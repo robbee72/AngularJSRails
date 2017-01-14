@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Visitor.delete_all
+Player.delete_all
 
-Visitor.create!  id: 1, first_name: "Bob", last_name: "Smith", reason: "Meeting with James Willington"
-Visitor.create!  id: 2, first_name: "James", last_name: "Willington", reason: "Meeting with Bob Smith"
+Player.create!  id: 1, first_name: "Tiger", last_name: "Woods", reason: "Ryder Cup"
+Player.create!  id: 2, first_name: "Rory", last_name: "McILroy", reason: "Ryder Cup"
